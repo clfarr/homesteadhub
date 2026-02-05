@@ -33,6 +33,7 @@ body {
 
 .form-group {
   margin-bottom: 20px;
+  position: relative;
 }
 
 .form-group label {
@@ -109,9 +110,15 @@ button:hover {
 
 .field-error {
   color: #c62828;
-  font-size: 14px;
-  margin-top: 5px;
-  display: block;
+  font-size: 12px;
+  position: absolute;
+  right: -220px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  background-color: #ffebee;
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .dashboard {
